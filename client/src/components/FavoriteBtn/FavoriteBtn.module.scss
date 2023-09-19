@@ -1,0 +1,13 @@
+.favorite_btn {
+  width: 35px;
+  height: 35px;
+
+  border-radius: 100%;
+  background: #fff;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

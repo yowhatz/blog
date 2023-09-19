@@ -1,0 +1,38 @@
+.btn {
+  padding: 8px 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--white);
+  font-weight: 400;
+  font-size: 14px;
+
+  border-radius: 5px;
+  border: 1px solid transparent;
+
+  background-color: var(--red_500);
+
+  cursor: pointer;
+}
+
+.outline {
+  color: var(--red_500);
+
+  border: 1px solid var(--red_500);
+
+  background: transparent;
+}
+
+.ubuntu {
+  font-family: var(--main_family);
+}
+
+.inter {
+  font-family: var(--secondary_family);
+}
+
+.max {
+  width: 100%;
+}

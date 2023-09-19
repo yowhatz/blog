@@ -1,0 +1,30 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border-radius: 50%;
+
+  background: #fddd;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  &>img {
+    object-fit: cover;
+  }
+}
+
+.small {
+  width: 35px;
+  height: 35px;
+}
+
+.big {
+  width: 140px;
+  height: 140px;
+
+  font-size: 60px;
+}
